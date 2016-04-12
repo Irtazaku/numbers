@@ -17,17 +17,17 @@ namespace numbers
             for (int i = 0; i < C; i++)
             {
                 int N = int.Parse(sr.ReadLine());
-                double val = Math.Pow(2.23606797749979+3, (double)N);
-                long intval = (int)val;
+                double val = Math.Pow((3+Math.Sqrt(5)), (double)N);
+                long intval =(long) val%1000;
                 
                 if (intval % 1000 > 99)
-                    Console.WriteLine(intval % 1000 + "\t " + val + "\t " + intval);
+                    Console.WriteLine(intval);
                 else if (intval % 1000 > 9)
-                    Console.WriteLine("0" + intval % 1000 + "\t " + val + "\t " + intval);
+                    Console.WriteLine("0" + intval);
                 else if (intval % 1000 > 0)
-                    Console.WriteLine("00" + intval % 1000 + "\t " + val + "\t " + intval);
+                    Console.WriteLine("00" + intval);
                 else if (intval % 1000 <= 0)
-                    Console.WriteLine("000" + "\t " + val + "\t " + intval);
+                    Console.WriteLine("000" );
             }
                 sr.Close();
 
