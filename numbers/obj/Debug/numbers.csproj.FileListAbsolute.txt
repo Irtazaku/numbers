@@ -1,0 +1,6 @@
+c:\users\irtaza\documents\visual studio 2013\Projects\numbers\numbers\bin\Debug\numbers.exe.config
+c:\users\irtaza\documents\visual studio 2013\Projects\numbers\numbers\bin\Debug\numbers.exe
+c:\users\irtaza\documents\visual studio 2013\Projects\numbers\numbers\bin\Debug\numbers.pdb
+c:\users\irtaza\documents\visual studio 2013\Projects\numbers\numbers\obj\Debug\numbers.csprojResolveAssemblyReference.cache
+c:\users\irtaza\documents\visual studio 2013\Projects\numbers\numbers\obj\Debug\numbers.exe
+c:\users\irtaza\documents\visual studio 2013\Projects\numbers\numbers\obj\Debug\numbers.pdb
