@@ -16,10 +16,10 @@ namespace numbers
             int C = int.Parse(sr.ReadLine());
             for (int i = 0; i < C; i++)
             {
+		Console.write("sdajidhasf");
                 int N = int.Parse(sr.ReadLine());
                 double val = Math.Pow(2.23606797749979+3, (double)N);
                 long intval = (int)val;
-                
                 if (intval % 1000 > 99)
                     Console.WriteLine(intval % 1000 + "\t " + val + "\t " + intval);
                 else if (intval % 1000 > 9)
